@@ -1,3 +1,12 @@
+#UPDATE MARCH 2019#
+Fixes:
+-> Phone Number Extraction Fixed
+
+New Features:
+-> Page Number Argument Added, Run the Command With Different Page Numbers And Result Will Be Added In A Single File.
+
+#UPDATE CREDIT: ABBAS#
+
 # Yellow Pages Business Details Scraper
 
 Yellowpages.com Web Scraper written in Python and LXML to extract business details available based on a particular category and location.
@@ -42,13 +51,13 @@ Python Requests, to make requests and download the HTML content of the pages (ht
 Python LXML, for parsing the HTML Tree Structure using Xpaths (Learn how to install that here – http://lxml.de/installation.html)
 
 ## Running the scraper
-We would execute the code with the script name followed by the positional arguments **keyword** and **place**. Here is an example
-to find the business details for restaurants in Boston. MA.
+We would execute the code with the script name followed by the positional arguments **keyword** and **place** and **Page**. Here is an example
+to find the business details for restaurants in Dallas,TX 
 
 ```
-python3 yellow_pages.py restaurants Boston,MA
+python3 yellow_pages.py restaurants Dallas,TX 1
 ```
-## Sample Output
+## Sample Output (Does Not Include Result Of New Feature)
 
 This will create a csv file:
 
